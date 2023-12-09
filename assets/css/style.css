@@ -1,0 +1,35 @@
+body{
+     
+    background-color: rgb(15, 52, 86);
+     color: black;
+     
+       
+ }
+ .card{ background-color: rgb(206, 245, 222);
+     color: black;
+     font-size: bold;
+ }
+ h3 {color: rgb(35, 72, 60);
+     text-transform: capitalize;
+     font-size: 24px;
+     text-align: center;
+ }
+ h1{text-transform: uppercase;
+     font-size: 50px;
+     text-align: center;
+ position: sticky;
+ width: 100%;
+ background-color: blueviolet;
+ top: 0px;
+ }
+ div#postcontainer {
+     display: flex;
+     flex-direction: column-reverse;
+ }
+ 
+ 
+ 
+h1.bg-success.text-white.p-4.mb-4 {
+    
+text-align: center;
+}
