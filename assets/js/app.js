@@ -24,6 +24,7 @@ const lader= document.getElementById("lader");
   let edtUrl= `${baseUrl}/posts/${editid}.json`
   apiall("GET",edtUrl)
   .then(res=>{
+    window.scrollTo(0,0)
     lader.classList.add("d-none");
     let edtpost=JSON.parse(res)
     submitBtn.classList.add("d-none")
@@ -122,7 +123,7 @@ card.innerHTML=`
                             Delete
                             </button>
                         </div>
-                     </div> 
+                     
 `
     postcontainer.append(card);
    }
