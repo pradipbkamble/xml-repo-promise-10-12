@@ -126,7 +126,7 @@ card.innerHTML=`
                      
 `
     postcontainer.append(card);
-   }
+   }//
 
 const objtoarr=(obj)=>{
 let arr1=[];
